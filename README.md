@@ -63,8 +63,16 @@ aws configure
 
 > You'll be prompted to enter your AWS Access Key, Secret Key, default region (e.g. `us-east-1`), and output format.
 
+Great! Here's a clean and concise section you can add to your `README.md` for **cleaning up resources**:
+
 ---
 
-Would you like a section on “🧼 Clean Up – Destroying the Resources” as well?
+## Clean Up – Destroying the Resources
 
+To avoid ongoing charges and clean up all the AWS infrastructure created by Terraform, run:
 
+```bash
+terraform destroy
+```
+
+> Confirm with `yes` when prompted.
