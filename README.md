@@ -63,9 +63,6 @@ aws configure
 
 > You'll be prompted to enter your AWS Access Key, Secret Key, default region (e.g. `us-east-1`), and output format.
 
-Great! Here's a clean and concise section you can add to your `README.md` for **cleaning up resources**:
-
----
 
 ## Clean Up – Destroying the Resources
 
